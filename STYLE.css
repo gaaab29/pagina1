@@ -1,0 +1,91 @@
+body {
+
+    font-family: 'Franklin Gothic Medium' ;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(128, 13, 13);
+
+}
+header {
+    color: rgb(0, 0, 0);
+    background-color: hsl(0, 100%, 50%);
+    text-align: center;
+}
+ nav ul {
+    list-style: none;
+    margin:0 ;
+}
+nav ul li {
+    display: inline;
+    margin: 0%  15% ;
+}
+#productos{
+    padding: 20px;
+    background: #000000;
+    margin-bottom: 40px ;
+}
+.content-prod {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    background-color: #ff0800;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    transition: 0.3s;
+    overflow: hidden;
+}
+.card:hover{
+    transform: scale(1.0s);
+}
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+
+}
+.btn {
+    background-color: bisque;
+    color: black;
+}
+
+
+#Contacto {
+    padding: 20px;
+    background: #000000;
+    margin-bottom: 40px ;
+}
+.cont-iconos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.iconos {
+    background-color: #ff0800;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    transition: 0.3s;
+    overflow: hidden;
+}
+.iconos:hover{
+    transform: scale(1.0s);
+}
+.iconos img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+
+}
+.btn {
+    background-color: bisque;
+    color: black;
+}
